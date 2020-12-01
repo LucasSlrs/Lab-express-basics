@@ -10,3 +10,27 @@ nav {
     margin: 2%;
     
 }
+a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background-color: turquoise;
+    color: whitesmoke;
+    border-radius: 5%;
+}
+#first-page{
+    text-align: center;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+button{
+    padding: 10px;
+    text-align: center;
+    background-color: turquoise;
+    color: whitesmoke;
+    border: none;
+    border-radius: 2%;
+}

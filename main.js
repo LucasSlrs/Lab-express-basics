@@ -21,5 +21,5 @@ app.get("/about", (require, response) =>{
 });
 app.listen(3000, () => {
     console.log("server is ready at: http://localhost:3000");
-})
+});
 
