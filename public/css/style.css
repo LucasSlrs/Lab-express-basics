@@ -87,3 +87,9 @@ img{
     text-align: center;
     line-height: 1.5;
 }
+@media screen and (max-width: 1000px){
+    .exemple{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
