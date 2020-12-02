@@ -3,25 +3,28 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background-color: #9ad1d4;
+}
 
 nav {
     display: flex;
     justify-content: space-around;
     margin: 2%;
-    
 }
 a{
     text-decoration: none;
     padding: 10px;
     text-align: center;
-    background-color: turquoise;
+    background-color: #003249;
     color: whitesmoke;
     border-radius: 5%;
 }
 #first-page{
     text-align: center;
+    color: #003249;
 }
-.test{
+.first-section-btn{
     display: flex;
     justify-content: center;
     margin-top: 2%;
@@ -29,8 +32,116 @@ a{
 button{
     padding: 10px;
     text-align: center;
-    background-color: turquoise;
+    background-color: #003249;
     color: whitesmoke;
     border: none;
     border-radius: 2%;
+}
+h1{
+    margin: 2%;
+    text-align: center;
+    color: #003249;
+}
+h2{
+    margin: 2%;
+    text-align: center;
+    color: #003249;
+}
+img{
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.systel{
+    display: flex;
+    justify-content: center;
+}
+/* .systel div{
+    border: 3px solid black;
+} */
+.exemple{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#first-div{
+    margin: 0 20% 0 20%;
+    text-align: center;
+    line-height: 1.5;
+    color: #003249;
+}
+#second-div{
+    margin: 0 20% 0 20%;
+    text-align: center;
+    color: #003249;
+}
+#third-div{
+    margin: 2% 20% 2% 20%;
+    text-align: center;
+    color: #003249;
+}
+#third-div ol li{
+    list-style: none;
+    line-height: 1.5;
+    color: #003249;
+}
+#fourth-div{
+    margin: 2% 13% 2% 13%;
+    text-align: center;
+    line-height: 1.5;
+    color: #003249;
+}
+@media screen and (max-width: 1000px){
+    .exemple{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+#boka{
+    width: 100px;
+    height: 100px;
+}
+.part-2{
+    color: #003249;
+}
+.compost-1{
+    margin: 2% 13% 2% 13%;
+    text-align: center;
+    line-height: 1.5;
+}
+.compost{
+    margin-top: 2%;
+}
+.compost-with-ol{
+    margin: 2% 13% 2% 13%;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+.compost-with-ol ol li{
+    text-align: left;
+}
+.compost-with-ul{
+    margin: 2% 13% 2% 13%;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+.compost-with-ul ul li{
+    text-align: left;
+}
+.composting-p{
+    text-align: center;
+}
+.boka-class{
+    display: flex;
+    justify-content: center;
+}
+whoAreWe.is-visible{
+    display: none;
+}
+.description{
+    margin: 2% 13% 2% 13%;
+    line-height: 1.5;
 }
