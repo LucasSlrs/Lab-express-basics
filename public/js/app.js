@@ -1,6 +1,13 @@
-const sec = document.querySelector('.fisrt-section');
-document.getElementById("whoAreWe").textContent = `<p class="description">Welcome to our Website, this is a IronHack lab to let us
-work with Express.js as an introduction to the backend development</p>`
+const target = document.querySelector('.first-section-btn');
+const btn = document.getElementById('whoAreWe');
+const createDiv = `<div class="description">Welcome to our Website, this Yis a IronHack lab to let us
+// work with Express.js as an introduction to the backend development</div>`;
 
-const handleToggle = () => sec.classList.toggle("is-active", text);
-if (btn !== null) btn.onclick = handleToggle;
+const hangleToggle = () => btn.classList.toggle('is-visible', createDiv);
+if (btn !== null) btn.onclick = hangleToggle;
+
+
+
+
+// btn.innerHTML = `<div class="description">Welcome to our Website, this Yis a IronHack lab to let us
+// work with Express.js as an introduction to the backend development</div>`;

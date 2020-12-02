@@ -24,7 +24,7 @@ a{
     text-align: center;
     color: #003249;
 }
-.test{
+.first-section-btn{
     display: flex;
     justify-content: center;
     margin-top: 2%;
@@ -137,4 +137,11 @@ img{
 .boka-class{
     display: flex;
     justify-content: center;
+}
+whoAreWe.is-visible{
+    display: none;
+}
+.description{
+    margin: 2% 13% 2% 13%;
+    line-height: 1.5;
 }
