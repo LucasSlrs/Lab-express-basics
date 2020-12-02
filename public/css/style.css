@@ -138,10 +138,11 @@ img{
     display: flex;
     justify-content: center;
 }
-whoAreWe.is-visible{
-    display: none;
+.description.is-visible{
+    display: block;
 }
 .description{
+    display: none;
     margin: 2% 13% 2% 13%;
     line-height: 1.5;
 }
